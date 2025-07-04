@@ -4,6 +4,7 @@ The project includes SQL table definitions, an initialization script written in 
 
 Accompanying the technical implementation is a full documentation file in PDF format, as well as a report summarizing key data insights. The project uses standard Python libraries such as pandas and matplotlib for exploratory analysis and visualization. It provides a solid foundation for managing complex travel logistics in a fictional space tourism setting and can be used as a learning example for relational modeling and practical database development.
 
+
 Polish - "Baza danych agencji podróży kosmicznych to kompletny projekt bazy danych zaprojektowany dla fikcyjnej firmy oferującej usługi turystyki kosmicznej. System modeluje wszystkie kluczowe elementy takiej agencji, w tym klientów, misje kosmiczne, pojazdy, opcje jedzenia, alergeny, płatności, pracowników oraz koszty organizacyjne. Baza danych została zbudowana w systemie MySQL i oparta jest na zasadach relacyjnego modelowania danych, z zastosowaniem normalizacji oraz kluczy obcych zapewniających integralność danych.
 
 Projekt zawiera definicje tabel SQL, skrypt inicjalizacyjny napisany w Pythonie w środowisku Jupyter Notebook oraz osobny notebook z analizą danych. Relacje wiele-do-wielu, takie jak klient–alergen czy jedzenie–alergen, zostały zaimplementowane przy użyciu tabel pośrednich. Zbiór danych obsługuje również informacje o preferencjach dietetycznych, celach wypraw oraz szczegółach transakcji.
